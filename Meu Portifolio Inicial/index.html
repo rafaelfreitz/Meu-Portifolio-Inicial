@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio Inicial</title>
+    <style>
+        .container-habilidades {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .header-subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: #555555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="body">
+
+    <header>
+        <h1 class="header-title">Bem-vindo ao meu portfólio!</h1>
+        <h2 class="header-subtitle">Este é o meu portfólio inicial</h2>
+        
+        <p style="text-align: justify; background-color: #2C3E50; color: #FFFFFF; padding: 25px; border-radius: 8px; font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; margin-bottom: 40px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            Sou Rafael Freitas. Sou estudante de Desenvolvimento de Software Multiplataforma (DSM) na Fatec e focado em unir código e design para criar experiências completas. Tenho experiência prática na criação de interfaces e protótipos utilizando Figma, atuando desde a concepção visual até a organização de assets. No desenvolvimento, busco sempre escrever um código limpo e aplicar soluções tecnológicas que facilitem a vida do usuário.
+        </p>
+    </header>
+
+    <main>
+        <section class="sobre-mim-section">
+            <h3 id="titulo-sobre">Sobre mim</h3>
+            
+            <p id="texto-sobre">
+                Profissional em transição para a área de tecnologia, com sólida base em gestão operacional, logística e planejamento estratégico adquirida no setor de infraestrutura (Sabesp e parceiros). Atualmente dedicado de forma integral ao curso de Desenvolvimento de Software Multiplataforma na Fatec. Combino meu perfil analítico com habilidades em design de interfaces (UI), criando protótipos no Figma, como no projeto Mammo.AI.
+            </p>
+            
+            <ul class="minhas-habilidades">
+                <li>Gestão operacional e planejamento estratégico</li>
+                <li>Design de interfaces de usuário e prototipagem (Figma)</li>
+                <li>Forte familiaridade com tecnologia e inglês fluente</li>
+            </ul>
+        </section>
+
+        <section class="habilidades-section">
+            <h3 style="text-align: center; margin-top: 50px; margin-bottom: 30px; color: #2C3E50; font-size: 24px;">
+                Habilidades
+            </h3>
+            
+            <div class="container-habilidades">
+                <div class="habilidade">
+                    <h4>Gestão de Operações</h4>
+                    <p>Experiência prática na programação estratégica de serviços e priorização de demandas de campo.</p>
+                </div>
+
+                <div class="habilidade">
+                    <h4>Design de Interfaces (UI)</h4>
+                    <p>Criação de identidades visuais e prototipagem de interfaces utilizando Figma.</p>
+                </div>
+
+                <div class="habilidade">
+                    <h4>Lógica e Automação</h4>
+                    <p>Foco em otimizar processos administrativos através de ferramentas e scripts baseados em lógica.</p>
+                </div>
+            </div>
+            
+            <div class="seccao-contacto">
+                <label for="email" class="label-contacto">Deixe o seu e-mail para contacto:</label>
+                <br>
+                <input type="email" id="email" placeholder="exemplo@email.com">
+                <br><br>
+                <a href="https://github.com/rafaelfreitz" target="_blank" class="botao-github">Aceder ao meu repositório</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafael. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

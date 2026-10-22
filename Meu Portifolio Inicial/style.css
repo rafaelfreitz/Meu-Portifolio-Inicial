@@ -1,0 +1,135 @@
+.body {
+    background-color: #F4F7F6; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, main {
+    max-width: 940px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-title {
+    font-family: Arial, sans-serif;
+    margin: 20px 0 0 0;
+    color: #2C3E50; 
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#titulo-sobre {
+    color: #2C3E50;
+    font-size: 24px;
+    border-bottom: 2px solid #E0E0E0;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+#texto-sobre {
+    color: #333333; 
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.minhas-habilidades {
+    background-color: #FFFFFF; 
+    border-left: 4px solid #3498DB; 
+    padding: 20px 35px;
+    list-style-type: square;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+li {
+    color: #333333;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.habilidade {
+    border: 2px solid #E0E0E0;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #FFFFFF; 
+    width: 30%; 
+    box-sizing: border-box;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidade h4 {
+    color: #2C3E50; 
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.habilidade p {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 14px;
+    color: #555555; 
+    line-height: 1.5;
+}
+
+.habilidade:hover {
+    transform: translateY(-8px);
+    border-color: #3498DB; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.seccao-contacto {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.label-contacto {
+    font-weight: bold;
+    color: #2C3E50;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    border: 2px solid #D0D0D0;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 12px;
+    color: #333333;
+    background-color: #FFFFFF;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus {
+    border-color: #3498DB;
+    outline: none;
+}
+
+a[target="_blank"] {
+    color: #3498DB; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #3498DB;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 15px;
+}
+
+a[target="_blank"]:hover {
+    background-color: #3498DB;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2C3E50; 
+    color: #ECF0F1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    width: 100%;
+}
